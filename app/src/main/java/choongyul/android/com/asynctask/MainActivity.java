@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 // 남아있는 데이터를 다 흘려보낸다.
                 bos.flush();
-            } catch (IOException e) {
+            } catch (IOException e){
                 e.printStackTrace();
             } finally {
                 try { // 사용한 순서 역순으로 닫아준다. 제일먼저 사용한걸 제일 나중에 닫아줌.
