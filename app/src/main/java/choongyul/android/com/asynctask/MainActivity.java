@@ -2,8 +2,6 @@ package choongyul.android.com.asynctask;
 
 import android.content.res.AssetManager;
 import android.os.AsyncTask;
-import android.os.Handler;
-import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,7 +9,6 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -22,6 +19,7 @@ import java.io.InputStream;
 /**
  * assets 폴더안에 어떤 파일이 필요함. FILE_NAME 에 집어넣어야합니다.
  */
+
 public class MainActivity extends AppCompatActivity {
 
     // 핸들이 메시지에 담겨오는 what에 대한 정의
